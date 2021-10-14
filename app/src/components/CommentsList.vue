@@ -1,19 +1,19 @@
 <template>
-    <div class="comments-list">
-        <comments-card v-for="(comment, index) in commentsList" :key="comment.index" :index="index" :comment="comment" />
+    <div class="comment-list">
+        <comment-card v-for="(comment, index) in commentsList" :key="comment.index" :index="index" :comment="comment" />
     </div>
 </template>
 
 
 <script>
 import commentsListFile from '../data/comments.data.json'
-import CommentsCard from './CommentsCard.vue'
+import CommentCard from './CommentsCard.vue'
 export default {
     props: {
         index: Number,
     },
     components: {
-        CommentsCard,
+        CommentCard,
     },  
     data() {
         return {
@@ -22,3 +22,9 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+    .comment-list{
+        width: 40%;
+    }
+</style>

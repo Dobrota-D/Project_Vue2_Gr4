@@ -15,3 +15,11 @@ import CommentsList from '../components/CommentsList.vue'
 
     }
 </script>
+
+<style>
+  .home{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+</style>

@@ -21,3 +21,8 @@ export default {
 }
 </script>
 
+<style scoped>
+    .crypto-list{
+        width: 40%;
+    }
+</style>
