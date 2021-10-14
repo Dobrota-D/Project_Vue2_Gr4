@@ -8,19 +8,19 @@
     {
         "name": "Ethereum",
         "abbreviation": "ETH",
-        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/107.png",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
         "price": 0    
     },
     {
         "name": "Tether",
         "abbreviation": "USDT",
-        "icon": "https://dynamic-assets.coinbase.com/41f6a93a3a222078c939115fc304a67c384886b7a9e6c15dcbfa6519dc45f6bb4a586e9c48535d099efa596dbf8a9dd72b05815bcd32ac650c50abb5391a5bd0/asset_icons/1f8489bb280fb0a0fd643c1161312ba49655040e9aaaced5f9ad3eeaf868eadc.png",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
         "price": 0
     },
     {
         "name": "Cardano",
         "abbreviation": "ADA",
-        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/20png",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png",
         "price": 0
     },
     {
@@ -38,7 +38,7 @@
     {
         "name": "Avalanche",
         "abbreviation": "AVAX",
-        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/580.png",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png",
         "price": 0
     },
     {
@@ -56,7 +56,7 @@
     {
         "name": "OMG Network",
         "abbreviation": "OMG",
-        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/180.png",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1808.png",
         "price": 0
     },
     {

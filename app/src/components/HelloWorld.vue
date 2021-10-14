@@ -33,25 +33,11 @@
 </template>
 
 <script>
-import cryptoList from '../data/crypto.data.json'
 
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  },
-  methods: {
-    async getCryptoList() {
-      cryptoList.forEach(crypto => {
-        this.getCrypto(crypto.abbreviation)
-      });
-    },
-    async getCrypto(cryptoName) {
-      await fetch(`https://api.coinbase.com/v2/prices/${cryptoName}-EUR/spot`).catch(() => console.log(cryptoName))
-    }
-  },
-  mounted() {
-    this.getCryptoList()
   }
 }
 </script>
