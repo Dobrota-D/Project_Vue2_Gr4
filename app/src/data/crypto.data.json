@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Bitcoin",
+        "abbreviation": "BTC",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
+        "price": 0
+    },
+    {
+        "name": "Ethereum",
+        "abbreviation": "ETH",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/107.png",
+        "price": 0    
+    },
+    {
+        "name": "Tether",
+        "abbreviation": "USDT",
+        "icon": "https://dynamic-assets.coinbase.com/41f6a93a3a222078c939115fc304a67c384886b7a9e6c15dcbfa6519dc45f6bb4a586e9c48535d099efa596dbf8a9dd72b05815bcd32ac650c50abb5391a5bd0/asset_icons/1f8489bb280fb0a0fd643c1161312ba49655040e9aaaced5f9ad3eeaf868eadc.png",
+        "price": 0
+    },
+    {
+        "name": "Cardano",
+        "abbreviation": "ADA",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/20png",
+        "price": 0
+    },
+    {
+        "name": "Dogecoin",
+        "abbreviation": "DOGE",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/74.png",
+        "price": 0
+    },
+    {
+        "name": "Solana",
+        "abbreviation": "SOL",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+        "price": 0
+    },
+    {
+        "name": "Avalanche",
+        "abbreviation": "AVAX",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/580.png",
+        "price": 0
+    },
+    {
+        "name": "Shiba Inu",
+        "abbreviation": "SHIB",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png",
+        "price": 0
+    },
+    {
+        "name": "Braintrust",
+        "abbreviation": "BTRST",
+        "icon": "https://dynamic-assets.coinbase.com/c6fbaf218584baca987a5176d49c8cf1df025d3c2d30ac7593bad0cfcc72ee2366ddae60712593ee0227010d8efde9bbe0af33d72bd693bbbea60a364c34f2db/asset_icons/a9736f252e016fc2fc1d79cd1080bf15237edae4e8a0602a3ad6e4e47bec45bc.png",
+        "price": 0
+    },
+    {
+        "name": "OMG Network",
+        "abbreviation": "OMG",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/180.png",
+        "price": 0
+    },
+    {
+        "name": "Polymath",
+        "abbreviation": "POLY",
+        "icon": "https://dynamic-assets.coinbase.com/7f1b216f0d206521953cd29366fcf460b7bfe5bb18c86c122a3cac5254f5eda5360cb187e5791e192b6713b15886fa3d9d2d3328f4e5d16d7b2790ed3d1f5035/asset_icons/2dac3c648db5ff58bd7f7dacbe3df78f9a2d43fe6413416bed7c5b1c641af95f.png",
+        "price": 0
+    },
+    {
+        "name": "Rai Reflex Index",
+        "abbreviation": "RAI",
+        "icon": "https://dynamic-assets.coinbase.com/5b074571de93117db5a388c2da2886a4afc31cb502e1f9991d11e8ff4781dba3e1d93585406f1588f0931bb4526bd2a1525adebfef9e1b857c2a37b0c238bba7/asset_icons/b25f65b03472c5317219a1369cbcea59825a7bc6e79085539056bdb04a02cfea.png",
+        "price": 0
+    },
+    {
+        "name": "Basic Attention Token",
+        "abbreviation": "BAT",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1697.png",
+        "price": 0
+    },
+    {
+        "name": "Dai",
+        "abbreviation": "DAI",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png",
+        "price": 0
+    },
+    {
+        "name": "SushiSwap",
+        "abbreviation": "SUSHI",
+        "icon": "https://dynamic-assets.coinbase.com/cede43e837596061c7e2290c725be20ee0eb000eb76937c879289ccf08f5941f9c1d76e3f3dd8cb0e67f53d0f4adc48286516200e7db5bd6bc403fcd9d318449/asset_icons/483b36b14a995b07c7883d0647903f77d8feafe1f685b55a0334b8788b151194.png",
+        "price": 0
+    },
+    {
+        "name": "The Graph",
+        "abbreviation": "GRT",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/6719.png",
+        "price": 0
+    },
+    {
+        "name": "BarnBridge",
+        "abbreviation": "BOND",
+        "icon": "https://dynamic-assets.coinbase.com/32e382e7c6008867f285e78783d4b389ab4e6adc83b394c26bebd6bedba4cdbb105f25a2f2237f89c86453932efe38d40a1082d429f4c5273657297d8efc7002/asset_icons/2f2d2fb23c3b84c4d620501d373ab41672a4667aab88deb26f2ee8132645e09f.png",
+        "price": 0
+    },
+    {
+        "name": "Polkadot",
+        "abbreviation": "DOT",
+        "icon": "https://dynamic-assets.coinbase.com/e69bfafd90cc11d33bec57383c354ec1d99f29fdb1a8c3822bf438a58ca6dd032d19e9f5b89fd3dbfb3af45af96610da2f253ad225cd83fcabc3db8e5e52f20d/asset_icons/cb500931800355a865fb919a692a03c346df838e594c408b033f0b91a99cf1ba.png",
+        "price": 0
+    }
+]
