@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="crypto-price">
-            <p>{{ cryptoPrice.substring(0, 8) }}€</p>
+            <p>{{ cryptoPrice }}€</p>
         </div>
     </div>
 </template>
