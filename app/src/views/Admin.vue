@@ -4,16 +4,18 @@
             <crypto-list />
         </div>
         <div class="comments-list-container">
+            <add-comment-form />
         </div>
     </div>
 </template>
 
 <script>
 import CryptoList from '@/components/CryptoList.vue'
+import AddCommentForm from '../components/AddCommentForm.vue'
     
     
     export default {
-        components: { CryptoList },
+        components: { CryptoList, AddCommentForm },
     }
 </script>
 
