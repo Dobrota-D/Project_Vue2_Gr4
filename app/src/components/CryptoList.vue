@@ -1,6 +1,6 @@
 <template>
     <div class="crypto-list">
-        <crypto-card v-for="crypto in cryptoList" :key="crypto.name" :crypto="crypto" />
+        <crypto-card v-for="(crypto, index) in cryptoList" :key="crypto.name" :crypto="crypto" :index="index" />
     </div>
 </template>
 
@@ -11,7 +11,6 @@
 export default {
     props: {
         nom: String,
-        x: Array
     },
     components: { CryptoCard },
     data() {
