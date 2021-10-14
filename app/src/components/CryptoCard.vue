@@ -1,5 +1,5 @@
 <template>
-    <div class="crypto-card">
+    <div class="crypto-card" @click="goToCrypto(crypto.abbreviation)">
         <div class="crypto-card-left">
             <div class="crypto-data">
                 <img :src="crypto.icon" :alt="crypto.abbreviation + '-icon'">
@@ -21,6 +21,7 @@
 
 <script>
 import cryptoListFile from '../data/crypto.data.json'
+import router from '../router/index.js'
 
 export default {
     props: {
@@ -36,6 +37,9 @@ export default {
         deleteCrypto() {
             this.$delete(this.cryptoList, this.index)
         },
+        goToCrypto(cryptoAbb){
+            router.push({ name: 'crypto', params:{ cryptoAbb : cryptoAbb}})
+        }
     },
     mounted() {
         this.getCryptoData(this.crypto.abbreviation)
@@ -60,6 +64,7 @@ export default {
         border-radius: 7px;
         margin: 15px 0;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
+        cursor: pointer;
     }
     .crypto-card-left {
         padding: 20px;
