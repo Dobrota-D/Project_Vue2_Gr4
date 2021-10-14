@@ -22,13 +22,23 @@ const routes = [
     path: '/admin',
     name: 'Admin',
     component: () => import( '../views/Admin.vue')
-  }
+  },
+  {
+    path: '/crypto/:crypto',
+    name: 'crypto',
+    component: () => import('../views/Crypto.vue'),
+  },
+  { 
+    path: '*', 
+    name: 'NotFound',
+    component: () => import('../views/404.vue')
+}
 ]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes 
 })
 
 export default router
