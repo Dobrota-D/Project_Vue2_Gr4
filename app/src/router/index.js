@@ -24,7 +24,7 @@ const routes = [
     component: () => import( '../views/Admin.vue')
   },
   {
-    path: '/crypto/:crypto',
+    path: '/crypto/:cryptoAbb',
     name: 'crypto',
     component: () => import('../views/Crypto.vue'),
   },
