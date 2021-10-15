@@ -3,7 +3,7 @@
         <div class="crypto-list-container">
             <crypto-list />
         </div>
-        <div class="comments-list-container">
+        <div class="comments-list-container" id="infinite-list">
             <add-comment-form @newComment="addNewComment" />
             <comments-list />
         </div>
