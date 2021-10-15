@@ -3,7 +3,7 @@
     <div class="crypto-list-container">
       <crypto-list />
     </div>
-    <div class="comment-list-container">
+    <div class="comment-list-container" id="infinite-list">
       <comments-list />
     </div>
   </div>
@@ -15,8 +15,7 @@
     //import CommentsList from '@/components/CommentList.vue'
 
     export default {
-        components: { CryptoList, CommentsList },
-
+      components: { CryptoList, CommentsList },
     }
 </script>
 

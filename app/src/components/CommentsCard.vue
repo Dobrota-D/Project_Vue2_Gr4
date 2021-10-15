@@ -102,4 +102,7 @@ export default {
         background-color: #0d6efd;
         border-bottom-right-radius: 7px;
     }
+    .comment-card{
+        z-index: 2;
+    }
 </style>
