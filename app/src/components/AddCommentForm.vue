@@ -3,7 +3,7 @@
         <form>
             <div class="form-first-group">
                 <div :class="[errors.authorError ? 'input-group input-group-error' : 'input-group']">
-                    <label>Autheur</label>
+                    <label>Auteur</label>
                     <input v-model="author" type="text">
                     <div class="error-msg" v-if="errors.authorError">
                         <p>{{ errors.authorError }}</p>
@@ -18,14 +18,14 @@
                 </div>
             </div>
             <div :class="[errors.descriptionError ? 'input-group input-group-error' : 'input-group']">
-                <label>Description</label>
+                <label>Déscription</label>
                 <input v-model="description" type="text">
                 <div class="error-msg" v-if="errors.descriptionError">
                         <p>{{ errors.descriptionError }}</p>
                 </div>
             </div>
             <div :class="[errors.contentError ? 'input-group input-group-error' : 'input-group']">
-                <label>Content</label>
+                <label>Contenu</label>
                 <textarea v-model="content" type="text" rows="10" />
                 <div class="error-msg" v-if="errors.contentError">
                         <p>{{ errors.contentError }}</p>
