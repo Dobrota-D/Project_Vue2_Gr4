@@ -14,7 +14,7 @@ export default {
     },
     components: {
         CommentCard,
-    },  
+    },
     data() {
         return {
             commentsList: commentsListFile
@@ -25,6 +25,6 @@ export default {
 
 <style scoped>
     .comment-list{
-        width: 40%;
+        width: 100%;
     }
 </style>

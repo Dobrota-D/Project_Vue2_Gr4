@@ -5,6 +5,7 @@
         </div>
         <div class="comments-list-container">
             <add-comment-form />
+            <comments-list />
         </div>
     </div>
 </template>
@@ -12,10 +13,11 @@
 <script>
 import CryptoList from '@/components/CryptoList.vue'
 import AddCommentForm from '../components/AddCommentForm.vue'
+import CommentsList from '../components/CommentsList.vue'
     
     
     export default {
-        components: { CryptoList, AddCommentForm },
+        components: { CryptoList, AddCommentForm, CommentsList },
     }
 </script>
 
