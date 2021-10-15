@@ -1,7 +1,7 @@
 <template>
     <div class="comment-card" @newContent="setNewContent">
         <div class="comment-data">
-            <img :src="comment.urlToImage" v-if="this.$route.path === '/'" alt="comment-img">
+            <a :href="comment.url" target="_blank"><img :src="comment.urlToImage" v-if="this.$route.path === '/'" alt="comment-img"></a>
             <div class="comment-info">
                 <div class="title">{{comment.title}}</div>
                 <div class="description">{{comment.description}}</div>
