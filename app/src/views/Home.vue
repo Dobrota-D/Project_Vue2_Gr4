@@ -27,7 +27,7 @@
   }
   .crypto-list-container, .comment-list-container {
     width: 40%;
-    height: 85vh;
+    height: 75vh;
     overflow-y: scroll;
     padding-inline: 20px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
