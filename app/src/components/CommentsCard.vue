@@ -5,7 +5,7 @@
             <div class="description">{{comment.description}}</div>
             <div class="content">{{content}}</div>
             <div class="author">{{comment.author}}</div>
-            <div class="date">{{comment.date}}</div>
+            <div class="date">{{date}}</div>
         </div>
         <div class="comment-admin-view" v-if="this.$route.path === '/admin'">
             <div class="delete-comment" @click="deleteComment">
@@ -47,7 +47,14 @@ export default {
         },
         getDate(){
             const d = new Date(this.comment.date)
-            const date = `${d.getDate()}/${d.getMonth()+1}/${d.getFullYear()} - ${d.getHours()}:${d.getMinutes()}` 
+            const months = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novenbre","Décembre"]
+
+            const day = d.getDate() < 10 ? '0' + d.getDate() : d.getDate()
+            const month = months[d.getMonth()]
+            const hours = d.getHours() < 10 ? '0' + d.getHours() : d.getHours()
+            const minutes = d.getMinutes() < 10 ? '0' + d.getMinutes() : d.getMinutes()
+
+            const date = `${day} ${month} ${d.getFullYear()} - ${hours}h${minutes}`
             return date
         },
         deleteComment() {
