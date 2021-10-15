@@ -33,14 +33,14 @@ export default {
         const listElm = document.querySelector('#infinite-list');
         listElm.addEventListener('scroll', () => {
           if(listElm.scrollTop + listElm.clientHeight >= listElm.scrollHeight) {
-            this.loadMore();
+            this.loadMore(1200);
           }
         })
           // Initially load some items.
-        this.loadMore();
+        this.loadMore(0);
       },
       methods: {
-        loadMore () {
+        loadMore (time) {
           
           this.loading = true;
           setTimeout(() => {
@@ -48,7 +48,7 @@ export default {
               this.commentItemsDisplayed.push(commentsListFile[i]);
             }
             this.loading = false;
-          }, 1200);          
+          }, time);          
         }
       }
 }
