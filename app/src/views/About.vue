@@ -7,8 +7,6 @@
     <div class="cheminDeFer">
       <h1> 🛤 </h1>
       <h1> 🛤 </h1>
-      <h1> 🛤 </h1>
-      <h1> 🛤 </h1>
     </div>
     
   </div>
@@ -17,6 +15,7 @@
 <style scoped>
   .title{
     margin: 5% 0;
+    font-size: 2rem;
   }
   h3{
     margin: 3% 0 0 0 ;
@@ -29,5 +28,6 @@
   }
   h1{
     margin: 0;
+    font-size: 5rem;
   }
 </style>
