@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
+      <h1 class="title">Coin Market Wrap</h1>
       <router-link to="/"> Home </router-link> |
       <router-link to="/about"> À propos </router-link> |
       <router-link to="/admin"> Admin </router-link>
@@ -34,4 +35,9 @@ body {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.title{
+  font-size: 5vh;
+}
 </style>
+
