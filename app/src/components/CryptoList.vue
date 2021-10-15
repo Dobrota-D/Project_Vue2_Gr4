@@ -23,6 +23,6 @@ export default {
 
 <style scoped>
     .crypto-list{
-        width: 40%;
+        width: 100%;
     }
 </style>
