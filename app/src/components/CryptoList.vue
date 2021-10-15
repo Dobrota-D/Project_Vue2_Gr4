@@ -9,9 +9,6 @@
     import CryptoCard from './CryptoCard.vue';
 
 export default {
-    props: {
-        nom: String,
-    },
     components: { CryptoCard },
     data() {
         return {
