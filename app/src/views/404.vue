@@ -1,6 +1,6 @@
 <template>
   <div class="notFound">
-    <h1>(404) Page NotFound</h1>
+    <h1>Cette page n'existe pas 😢</h1>
   </div>
 </template>
 
