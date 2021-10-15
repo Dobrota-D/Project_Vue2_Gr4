@@ -72,6 +72,7 @@ export default {
             }
             // Pass the new comment to the parent element
             this.$emit('newComment', newComment)
+            // 
         }
     },
     data() {

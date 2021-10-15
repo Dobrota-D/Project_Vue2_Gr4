@@ -9,13 +9,19 @@
             </div>
         </div>
         </transition>
-        <comment-card v-for="(comment, index) in commentItemsDisplayed" :key="comment.index" :index="index" :comment="comment" />
+        <div v-if="this.$route.path === '/'">
+          <comment-card v-for="(comment, index) in commentItemsDisplayed" :key="comment.index" :index="index" :comment="comment" />
+        </div>
+        <div v-if="this.$route.path === '/admin'">
+          <comment-card v-for="(comment, index) in commentsList" :key="comment.index" :index="index" :comment="comment" />
+        </div>
     </div>
 </template>
 
 <script>
 import commentsListFile from '../data/comments.data.json'
 import CommentCard from './CommentsCard.vue'
+
 
 export default {
     components: {
@@ -44,7 +50,7 @@ export default {
           
           this.loading = true;
           setTimeout(() => {
-            for (var i = 0; i < 20; i++) {
+            for (var i = 0; i < this.commentsList.length; i++) {
               this.commentItemsDisplayed.push(commentsListFile[i]);
             }
             this.loading = false;

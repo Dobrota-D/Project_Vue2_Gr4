@@ -21,10 +21,9 @@ import commentsListFile from '../data/comments.data.json'
         components: { CryptoList, AddCommentForm, CommentsList },
         methods: {
             addNewComment(newComment) {
-                // Add the new comment in the json file
                 this.$set(commentsListFile, commentsListFile.length, newComment)
             }
-        }
+        },
     }
 </script>
 
