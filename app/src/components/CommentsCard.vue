@@ -1,11 +1,16 @@
 <template>
     <div class="comment-card" @newContent="setNewContent">
         <div class="comment-data">
-            <div class="title">{{comment.title}}</div>
-            <div class="description">{{comment.description}}</div>
-            <div class="content">{{content}}</div>
-            <div class="author">{{comment.author}}</div>
-            <div class="date">{{date}}</div>
+            <img :src="comment.urlToImage" v-if="this.$route.path === '/'" alt="comment-img">
+            <div class="comment-info">
+                <div class="title">{{comment.title}}</div>
+                <div class="description">{{comment.description}}</div>
+                <div class="content">{{content}}</div>
+                <div class="comment-data-and-author">
+                    <div class="author">{{comment.author}}</div>
+                    <div class="date">{{date}}</div>
+                </div>
+            </div>
         </div>
         <div class="comment-admin-view" v-if="this.$route.path === '/admin'">
             <div class="delete-comment" @click="deleteComment">
@@ -29,7 +34,6 @@ export default {
     props: {
         comment: Object,
         index: Number,
-
     },
     data() {
         return {
@@ -85,12 +89,36 @@ export default {
     .comment-data {
         width: 90%;
     }
+    .comment-info {
+        padding: 10px 20px;  
+    }
     .comment-admin-view {
         width: 10%;
     }
+    img {
+        width: 111%;
+        border-radius: 7px 7px 0 0;
+    }
     .title{
-        font-weight: 800;
+        font-weight: 900;
         font-size: 22px;
+    }
+    .description {
+        color: grey;
+        font-size: 13px;
+        text-align: left;
+        margin: 10px 0;
+    }
+    .content {
+        text-align: justify;
+    }
+    .comment-data-and-author {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: grey;
+        font-size: 13px;
+        margin: 15px 0;
     }
     .delete-comment, .modify-comment {
         width: 100%;
