@@ -69,7 +69,7 @@ export default {
         position: absolute;
         width: 50%;
         border-radius: 7px;
-        background-color: rgba(65, 65, 65, 0.4);
+        background-color: transparent;
         height: 15vh;
         left: 20%;
         bottom: 30vh;
