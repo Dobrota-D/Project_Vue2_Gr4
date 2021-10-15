@@ -1,9 +1,8 @@
 <template>
     <div class="comment-list">
-        <comment-card v-for="(comment, index) in commentsList" :key="comment.index" :index="index" :comment="comment" @newContent="setNewContent"/>
+        <comment-card v-for="(comment, index) in commentsList" :key="comment.index" :index="index" :comment="comment" />
     </div>
 </template>
-
 
 <script>
 import commentsListFile from '../data/comments.data.json'
@@ -18,11 +17,6 @@ export default {
             commentsList: commentsListFile,
         }
     },
-    methods: {
-        setNewContent(content) {
-            console.log(content);
-        }
-    }
 }
 </script>
 

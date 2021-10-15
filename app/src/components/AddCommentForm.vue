@@ -70,8 +70,7 @@ export default {
                 date: new Date(),
                 content: this.content
             }
-
-            console.log(newComment);
+            // Pass the new comment to the parent element
             this.$emit('newComment', newComment)
         }
     },
