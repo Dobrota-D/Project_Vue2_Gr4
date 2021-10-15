@@ -13,14 +13,11 @@
     </div>
 </template>
 
-
 <script>
 import commentsListFile from '../data/comments.data.json'
 import CommentCard from './CommentsCard.vue'
+
 export default {
-    props: {
-        index: Number,
-    },
     components: {
         CommentCard,
     },

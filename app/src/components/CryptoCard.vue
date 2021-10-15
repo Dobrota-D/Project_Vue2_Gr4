@@ -1,6 +1,6 @@
 <template>
-    <div class="crypto-card" @click="goToCrypto(crypto.abbreviation)">
-        <div class="crypto-card-left">
+    <div class="crypto-card">
+        <div class="crypto-card-left" @click="goToCrypto(crypto.abbreviation)">
             <div class="crypto-data">
                 <img :src="crypto.icon" :alt="crypto.abbreviation + '-icon'">
                 <div class="crypto-name">
